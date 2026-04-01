@@ -1,0 +1,63 @@
+body{
+font-family: Arial;
+background-color: #eeeeee;
+margin: 0;
+color: white;
+}
+
+.sol {
+    font-family: Arial;
+    background-color: white;
+    color:black
+}
+
+h1{
+color: black;
+text-align: center;
+font-size: 60px;
+}
+
+h2{
+color: white;
+}
+
+p{
+line-height: 1.6;
+text-align: justify;
+}
+
+.fluxo div{
+background-color:#1b4332;
+padding:20px;
+margin:20px 0;
+border-radius:10px;
+}
+
+section{
+background-color:rgb(6, 54, 6);
+padding:20px;
+margin:80px auto;
+border-radius: 0px;
+max-width:1500px;
+}
+
+/* ... seu código anterior igual ... */
+
+.caixa-total {
+    display: inline-block;
+    width: 500px;
+    border: 3px solid #4CAF50; 
+    padding: 25px;
+    margin: 20px;
+    background-color: #072907;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    vertical-align: top;
+    /* ADICIONE ISSO ABAIXO: */
+    color: black; /* Garante que o texto da caixa não seja branco */
+}
+
+/* Garante que os parágrafos dentro da caixa fiquem escuros */
+.caixa-total p {
+    color: #030000; 
+}
